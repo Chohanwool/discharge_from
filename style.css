@@ -1,15 +1,12 @@
 body {
-  font-family: sans-serif;
+  background-color: black;
 }
 
-.purple {
-  background-color: #914fad;
-}
-
-.blue {
-  background-color: #2d8cd5;
-}
-
-.yellow {
-  background-color: #eebc11;
+div {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
 }
